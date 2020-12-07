@@ -1,15 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   background-color: #d9dbf1;
 }
+nav {
+  height: 20vh;
+}
 .logo {
   background-color: #0d7882;
+  color: #ffffff;
+}
+a .nav-link {
+  background-color: #0d7882;
+  color: #ffffff;
 }
 div .principal {
   background-image: url('../img/fondosec.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100vh;
 }
 .banner {
   background-color: #d9dbf1;
