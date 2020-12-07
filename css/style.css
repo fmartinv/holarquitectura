@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background-color: #d9dbf1;
+}
+.logo {
+  background-color: #0d7882;
+}
+div .principal {
+  background-image: url('../img/fondosec.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.banner {
+  background-color: #d9dbf1;
+}
+.imagen-arquitectura {
+  background-image: url('../img/arquitectura1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+}
