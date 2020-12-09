@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *,
 *:before,
@@ -32,21 +33,25 @@ div .principal {
 .banner {
   background-color: #d9dbf1;
 }
-.imagen-arquitectura {
-  background-image: url('../img/arquitectura1.jpg');
+.img-arquitec {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 70vh;
   width: 100%;
+  box-shadow: 10px 10px 5px grey;
 }
-.img1 {
-  background-image: url('../img/imgar2.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 70vh;
-  width: 100%;
+.img-1 {
+  background-image: url('../img/arquitect1mod.jpg');
+}
+.img-2 {
+  background-image: url('../img/interiormod.jpg');
+}
+.img-3 {
+  background-image: url('../img/img-2crop.png');
+}
+.img-4 {
+  background-image: url('../img/img-4.jpeg');
 }
 .aviso {
   height: 40vh;
