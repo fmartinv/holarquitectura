@@ -10,6 +10,7 @@ html {
 body {
   margin: 0;
   background-color: #d9dbf1;
+  font-family: Open Sans, sans-serif;
 }
 nav {
   height: 20vh;
@@ -36,6 +37,18 @@ div .principal {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 50vh;
+  height: 70vh;
   width: 100%;
+}
+.img1 {
+  background-image: url('../img/imgar2.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+}
+.aviso {
+  height: 40vh;
+  max-width: 100%;
 }
