@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  margin: 0;
+  background-color: #0d7882;
 }
 *,
 *:before,
@@ -10,7 +12,8 @@ html {
 
 body {
   margin: 0;
-  background-color: #d9dbf1;
+  font-size: 16px;
+
   font-family: Open Sans, sans-serif;
 }
 nav {
@@ -18,42 +21,52 @@ nav {
 }
 .logo {
   background-color: #0d7882;
-  color: #ffffff;
+  color: #d9dbf1;
 }
 a .nav-link {
   background-color: #0d7882;
-  color: #ffffff;
+  color: #d9dbf1;
 }
 div .principal {
   background-image: url('../img/fondosec.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
+  min-width: 100%;
+  padding: 0vmax;
 }
-.banner {
-  background-color: #d9dbf1;
-}
+
 .img-arquitec {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 70vh;
   width: 100%;
-  box-shadow: 10px 10px 5px grey;
+  border: 2px outset #d9dbf1;
 }
 .img-1 {
   background-image: url('../img/arquitect1mod.jpg');
 }
 .img-2 {
   background-image: url('../img/interiormod.jpg');
+  min-height: 70vh;
 }
 .img-3 {
   background-image: url('../img/img-2crop.png');
+  min-height: 70vh;
 }
 .img-4 {
   background-image: url('../img/img-4.jpeg');
+  min-height: 70vh;
 }
 .aviso {
   height: 40vh;
   max-width: 100%;
+}
+h1 {
+  font-size: 3rem;
+}
+h2,
+h3 {
+  font-size: 2rem;
 }
