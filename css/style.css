@@ -22,6 +22,7 @@ nav {
 .logo {
   background-color: #0d7882;
   color: #d9dbf1;
+  padding: 0px;
 }
 a .nav-link {
   background-color: #0d7882;
