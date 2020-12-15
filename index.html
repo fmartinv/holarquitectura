@@ -32,15 +32,15 @@
     </title>
   </head>
   <body>
-    <div class="container-fluid logo">
+    <div class="container-fluid azul">
       <div
-        class="text-center h1 my-5 text-uppercase font-weight-light logo mt-5"
+        class="text-center h1 my-5 text-uppercase font-weight-light azul mt-5"
       >
         <h1>hola arquitectura</h1>
       </div>
       <!-- Navbar -->
       <nav
-        class="navbar navbar-expand-md navbar-light border-top border-bottom mb-5 logo"
+        class="navbar navbar-expand-md navbar-light border-top border-bottom mb-5 azul"
       >
         <button
           class="navbar-toggler"
@@ -57,21 +57,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto font-weight-bold text-uppercase">
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Nosotros</a>
+              <a class="nav-link text-white" href="#contacto">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Servicios</a>
+              <a class="nav-link text-white" href="#servicios">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Contacto</a>
+              <a class="nav-link text-white" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
       </nav>
       <!-- fin nav -->
 
-      <div class="container-fluid principal"></div>
-
+      <div class="container-fluid principal azul"></div>
+    </div>
+    <div class="container-fluid logo">
       <!-- div contenido -->
       <div class="container-fluid logo my-5 py-5">
         <div class="jumbotron jumbotron-fluid px-5 logo">
@@ -134,7 +135,7 @@
         <div class="container"></div>
       </div>
       <!-- Boxes -->
-      <div class="container-fluid px-0">
+      <div class="container-fluid px-0" id="servicios">
         <div class="row no-gutters">
           <div
             class="col-12 col-lg-3 bg-info text-white text-uppercase aviso align-items-center"
@@ -156,6 +157,25 @@
       </div>
       <!-- Fin Boxes -->
       <!-- div contenido -->
+      <div class="container-fluid">
+        <div class="col-6">
+          <form action="https://formspree.io/f/mwkwryke" method="POST">
+            <label>
+              Your email:
+              <input type="text" name="_replyto" />
+            </label>
+            <label>
+              Your message:
+              <textarea name="message"></textarea>
+            </label>
+
+            <!-- your other form fields go here -->
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+
       <footer class="mt-5 py-5 bg-dark text-white">
         <div class="container-fluid">
           <div class="row d-flex justify-content-center">

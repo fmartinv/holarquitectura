@@ -1,8 +1,8 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  margin: 0;
-  background-color: #0d7882;
+  margin: 0px;
+  padding: 0px;
 }
 *,
 *:before,
@@ -11,17 +11,23 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   font-size: 16px;
+  background-color: #0d7882;
 
   font-family: Open Sans, sans-serif;
 }
 nav {
   height: 20vh;
 }
-.logo {
+.azul {
   background-color: #0d7882;
   color: #d9dbf1;
+}
+.logo {
+  background-color: #d9dbf1;
+
   padding: 0px;
 }
 a .nav-link {
