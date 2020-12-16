@@ -3,6 +3,8 @@ html {
   scroll-behavior: smooth;
   margin: 0px;
   padding: 0px;
+  background-color: #d9dbf1;
+  margin-right: 0px;
 }
 *,
 *:before,
@@ -13,10 +15,12 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  font-size: 16px;
+  font-size: 20px;
   background-color: #0d7882;
-
   font-family: Open Sans, sans-serif;
+}
+.nover {
+  overflow: hidden;
 }
 nav {
   height: 20vh;
@@ -27,7 +31,6 @@ nav {
 }
 .logo {
   background-color: #d9dbf1;
-
   padding: 0px;
 }
 a .nav-link {
@@ -38,7 +41,7 @@ div .principal {
   background-image: url('../img/fondosec.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 80vh;
   min-width: 100%;
   padding: 0vmax;
 }

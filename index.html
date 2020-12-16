@@ -32,13 +32,11 @@
     </title>
   </head>
   <body>
-    <div class="container-fluid azul">
-      <div
-        class="text-center h1 my-5 text-uppercase font-weight-light azul mt-5"
-      >
-        <h1>hola arquitectura</h1>
-      </div>
+    <div class="container-fluid azul nover">
       <!-- Navbar -->
+      <div class="text-center h1 my-5 text-uppercase font-weight-light azul">
+        <h1><span class="text-warning">hola</span>rquitectura</h1>
+      </div>
       <nav
         class="navbar navbar-expand-md navbar-light border-top border-bottom mb-5 azul"
       >
@@ -77,7 +75,7 @@
       <div class="container-fluid logo my-5 py-5">
         <div class="jumbotron jumbotron-fluid px-5 logo">
           <div class="container">
-            <h2 class="text-uppercase text-center font-weight-bold">
+            <h2 class="text-uppercase text-center font-weight-bold pt-5">
               ¿Por que es importante contratar un arquitecto?
             </h2>
           </div>
@@ -87,9 +85,9 @@
       <div class="img-1 img-arquitec"></div>
       <div class="jumbotron px-5 logo my-auto py-5">
         <div class="container">
-          <h3 class="text-center font-weight-bolder logo">
-            "Desde la arquitecta se interpreta que es lo más conveniente para la
-            necesidad de cada cliente,tanto en reformas como en una nueva
+          <h3 class="text-sm-left text-md-center font-weight-bolder pt-4 logo">
+            "Desde la arquitectura se interpreta que es lo más conveniente para
+            la necesidad de cada cliente,tanto en reformas como en una nueva
             vivienda"
           </h3>
         </div>
@@ -157,22 +155,50 @@
       </div>
       <!-- Fin Boxes -->
       <!-- div contenido -->
-      <div class="container-fluid">
-        <div class="col-6">
-          <form action="https://formspree.io/f/mwkwryke" method="POST">
-            <label>
-              Your email:
-              <input type="text" name="_replyto" />
-            </label>
-            <label>
-              Your message:
-              <textarea name="message"></textarea>
-            </label>
+      <!-- formulario -->
+      <div class="container mt-5 pt-5 mb-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h3 class="font-weight-bolder">Formulario de contacto</h3>
+            <hr class="bg-info" />
+            <form action="https://formspree.io/f/mwkwryke" method="POST">
+              <div class="row form-group">
+                <label for="nombre" class="col-form-label col-md-3">
+                  Nombre:
+                </label>
+                <div class="col-md-8">
+                  <input
+                    type="text"
+                    name="name"
+                    id="nombre"
+                    class="form-control"
+                    required
+                  />
+                </div>
+              </div>
 
-            <!-- your other form fields go here -->
+              <div class="row form-group">
+                <label class="col-form-label col-md-3"> E-mail: </label>
+                <div class="col-md-8">
+                  <input type="text" name="_replyto" required />
+                </div>
+              </div>
 
-            <button type="submit">Send</button>
-          </form>
+              <div class="row form-group">
+                <label class="col-form-label col-md-3"> Mensaje: </label>
+                <div class="col-md-8">
+                  <textarea
+                    rows="3"
+                    class="form-control"
+                    name="message"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+
+              <button class="btn btn-info" type="submit">Enviar</button>
+            </form>
+          </div>
         </div>
       </div>
 
@@ -201,7 +227,6 @@
       </footer>
     </div>
 
-    <!-- jQuery, Popper.js, and Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -217,5 +242,17 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
+    <script>
+      <form id="my-form" action="https://formspree.io/f/mwkwryke" method="POST">
+        <label>Nombre</label>
+        <input type="text" name="nombre" />
+        <label>Email:</label>
+        <input type="email" name="email" />
+        <label>Message:</label>
+        <input type="text" name="message" />
+        <button id="my-form-button">Submit</button>
+        <p id="my-form-status"></p>
+      </form>;
+    </script>
   </body>
 </html>
