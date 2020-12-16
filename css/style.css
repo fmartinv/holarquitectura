@@ -73,10 +73,28 @@ div .principal {
   height: 40vh;
   max-width: 100%;
 }
+.espacio {
+  height: 20vh;
+}
 h1 {
   font-size: 3rem;
 }
 h2,
 h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  h2,
+  h3 {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  i .fab fa-blogger {
+    font-size: 1rem;
+  }
 }
