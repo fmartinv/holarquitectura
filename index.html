@@ -19,6 +19,12 @@
       href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -35,7 +41,9 @@
     <div class="container-fluid azul nover">
       <!-- Navbar -->
       <div class="text-center h1 my-5 text-uppercase font-weight-light azul">
-        <h1><span class="text-warning">hola</span>rquitectura</h1>
+        <h1 class="hvr-float">
+          <span class="text-warning letra">hola</span>rquitectura
+        </h1>
       </div>
       <nav
         class="navbar navbar-expand-md navbar-light border-top border-bottom mb-5 azul"
@@ -55,7 +63,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto font-weight-bold text-uppercase">
             <li class="nav-item">
-              <a class="nav-link text-white" href="#contacto">Nosotros</a>
+              <a class="nav-link text-white" href="#nosotros">Nosotros</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#servicios">Servicios</a>
@@ -75,7 +83,10 @@
       <div class="container-fluid logo my-5 py-5">
         <div class="jumbotron jumbotron-fluid px-5 logo">
           <div class="container">
-            <h2 class="text-uppercase text-center font-weight-bold pt-5">
+            <h2
+              class="mx-5 text-uppercase text-center font-weight-bold pt-5 letra hvr-float"
+              id="especial"
+            >
               ¿Por que es importante contratar un arquitecto?
             </h2>
           </div>
@@ -86,20 +97,21 @@
       <div class="jumbotron px-5 logo my-auto py-5">
         <div class="container">
           <h3 class="text-sm-left text-md-center font-weight-bolder pt-4 logo">
-            "Desde la arquitectura se interpreta que es lo más conveniente para
-            la necesidad de cada cliente,tanto en reformas como en una nueva
-            vivienda"
+            " Porque interpretamos cuáles son las necesidades para cada espacio
+            de tu vivienda" .
           </h3>
         </div>
       </div>
       <!-- Quote1 -->
       <div class="container-fluid logo">
         <div class="row">
-          <div class="col-12 col-lg-6 my-auto img-2 img-arquitec"></div>
+          <div
+            class="col-12 col-lg-6 my-auto img-2 img-arquitec hvr-grow"
+          ></div>
           <div class="col-12 col-lg-6 mx-auto my-auto">
             <h3 class="text-center text-justify font-weight-bolder p-5">
-              "Desarrolla un proyecto en el cual nos identificamos y cumple con
-              las funciones acorde a nuestra vida"
+              "porque desarrollamos un proyecto en el cual cumpla con las
+              funciones que identifiquen tu personalidad ."
             </h3>
           </div>
         </div>
@@ -113,13 +125,17 @@
               uso de materiales. Aplicando una conducción responsable"
             </h3>
           </div>
-          <div class="col-12 col-lg-6 my-auto img-3 img-arquitec"></div>
+          <div
+            class="col-12 col-lg-6 my-auto img-3 img-arquitec hvr-grow"
+          ></div>
         </div>
       </div>
       <!-- Quote3 -->
       <div class="container-fluid logo">
         <div class="row">
-          <div class="col-12 col-lg-6 my-auto img-4 img-arquitec"></div>
+          <div
+            class="col-12 col-lg-6 my-auto img-4 img-arquitec hvr-grow"
+          ></div>
           <div class="col-12 col-lg-6 mx-auto my-auto">
             <h3 class="text-sm-left font-weight-bolder p-5">
               "Es una inversión que garantiza la calidad de la obra,
@@ -136,31 +152,86 @@
       <div class="container-fluid px-0" id="servicios">
         <div class="row no-gutters">
           <div
-            class="col-12 col-lg-3 bg-info text-white text-uppercase aviso align-items-center"
+            class="col-12 col-lg-3 bg-info text-white text-uppercase aviso align-items-center hvr-float"
           >
-            <h3 class="font-weight-bolder py-5 px-5 mt-5">construir</h3>
-          </div>
-          <div class="col-12 col-lg-3 bg-light text-dark text-uppercase aviso">
-            <h3 class="font-weight-bolder py-5 px-5 mt-5 ml-4">ampliar</h3>
+            <h3 class="font-weight-bolder py-5 px-5 mt-5 hvr-float">
+              construimos
+            </h3>
           </div>
           <div
-            class="col-12 col-lg-3 bg-secondary text-white text-uppercase aviso"
+            class="col-12 col-lg-3 bg-light text-dark text-uppercase aviso hvr-float"
           >
-            <h3 class="font-weight-bolder py-5 px-5 mt-5">remodelar</h3>
+            <h3 class="font-weight-bolder py-5 px-5 mt-5 ml-4 hvr-float">
+              ampliamos
+            </h3>
           </div>
-          <div class="col-12 col-lg-3 bg-dark text-white text-uppercase aviso">
-            <h3 class="font-weight-bolder py-5 px-5 mt-5">construir</h3>
+          <div
+            class="col-12 col-lg-3 bg-secondary text-white text-uppercase aviso hvr-float"
+          >
+            <h3 class="font-weight-bolder py-5 px-5 mt-5 hvr-float">
+              remodelamos
+            </h3>
+          </div>
+          <div
+            class="col-12 col-lg-3 bg-dark text-white text-uppercase aviso hvr-float"
+          >
+            <h3 class="font-weight-bolder py-5 px-5 mt-5 hvr-float">
+              asesoramos
+            </h3>
           </div>
         </div>
       </div>
       <!-- Fin Boxes -->
       <!-- div contenido -->
-      <div class="jumbotron jumbotron-fluid banner espacio logo"></div>
+      <div class="jumbotron jumbotron-fluid banner espacio logo">
+        <div class="container"></div>
+      </div>
+      <div class="jumbotron articulo hvr-grow border border-info" id="nosotros">
+        <div class="container">
+          <h2 class="display-4 text-center mb-5 mt-5">¿Porque Contratarnos?</h2>
+          <h3 class="lead text-center mt-5 mb-5">
+            Somos un estudio Fundado en 1983, tenemos experiencia y
+            profesionalismo para construir ampliar o remodelar tu vivienda
+          </h3>
+          <hr class="my-4 bg-info" />
+
+          <p class="text-center mt-3">
+            Hoy abrimos una nueva area surgida de la necesidad que nos plantean
+            nuestros clientes, al decirnos "¿puedo contratar un arquitecto para
+            cambiar el color de las paredes de mi cocina?"
+          </p>
+
+          <p>
+            Así surgio HOLARQUITECTURA un espacio para consultar una duda
+            puntual que tengas en tu hogar
+          </p>
+          <hr class="my-4 bg-info" />
+          <p class="text-center mt-3">"¿Cómo armar un living?"</p>
+          <p class="text-center mt-3">¿Quiero más espacio en mi vestidor?</p>
+          <p class="text-center mt-3">
+            ¿Cómo soluciono el problema de húmdedad?
+          </p>
+          <p class="text-center mt-3 mb-5">
+            ¿Qué sistema es más conveniente para revestir la escalera?
+          </p>
+          <hr class="my-4 bg-info" />
+          <h3 class="text-center mt-4 mb-4">
+            Para cada problema te damos una solución puntual
+          </h3>
+          <h5 class="text-center mt-5">
+            "Resolvemos tu problema en el día y cobramos solo la consulta"
+          </h5>
+          <h5 class="text-center mt-4">
+            "Asesoramiento rápido, efectivo y económico"
+          </h5>
+          <h3 class="text-center mt-5">No dudes en contactarnos!</h3>
+        </div>
+      </div>
       <!-- formulario -->
       <div class="container mt-5 pt-5 mb-5 pb-5">
         <div class="row justify-content-center">
           <div class="col-md-8">
-            <h3 class="font-weight-bolder">Formulario de contacto</h3>
+            <h3 class="font-weight-bolder">Dejanos tu consulta!</h3>
             <hr class="bg-info" />
             <form action="https://formspree.io/f/mwkwryke" method="POST">
               <div class="row form-group">
@@ -212,6 +283,7 @@
                 <a
                   class="text-light"
                   href="https://www.facebook.com/arq.analinizzo"
+                  target="_blank"
                   ><i class="fab fa-facebook-square fa-2x"></i
                 ></a>
               </span>
@@ -219,6 +291,7 @@
                 <a
                   class="text-light"
                   href="https://wa.me/5493464693671?text=Hola%20Analí!%20Como%20estás?%20Tengo%20una%20consulta%20de%20arquitectura%20desde%20tu%20página!"
+                  target="_blank"
                   ><i class="fab fa-whatsapp-square fa-2x"></i
                 ></a>
               </span>
@@ -226,6 +299,7 @@
                 <a
                   class="text-light"
                   href="https://holaarquitectura.blogspot.com/"
+                  target="_blank"
                   ><i class="fab fa-blogger fa-2x"></i
                 ></a>
               </span>
