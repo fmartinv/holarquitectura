@@ -62,11 +62,11 @@ div .principal {
   min-height: 70vh;
 }
 .img-3 {
-  background-image: url('../img/img-2crop.png');
+  background-image: url('../img/imagarquitectura2.webp');
   min-height: 70vh;
 }
 .img-4 {
-  background-image: url('../img/img-4.jpeg');
+  background-image: url('../img/imagarquitectura3.jpg');
   min-height: 70vh;
 }
 .aviso {
@@ -74,6 +74,8 @@ div .principal {
   max-width: 100%;
 }
 .articulo {
+  background-color: #fcf9ed;
+
   overflow: hidden;
   font-family: 'Balsamiq Sans', cursive;
   max-width: 80%;
@@ -143,14 +145,16 @@ h3 {
   h3 {
     font-size: 1.3rem;
   }
+  .articulo h2 {
+  font-size: 1.8rem;
   p {
     font-size: 1rem;
   }
   i .fab fa-blogger {
     font-size: 1rem;
   }
-  .letra {
+ span .letra {
     font-family: 'Balsamiq Sans', cursive;
-    font-size: 1.3rem;
+    font-size: 18px;
   }
 }
