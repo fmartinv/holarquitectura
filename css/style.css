@@ -17,7 +17,6 @@ body {
   padding: 0px;
   font-size: 20px;
   background-color: #0d7882;
-  /* font-family: Open Sans, sans-serif; */
   font-family: 'Raleway', sans-serif;
 }
 .nover {
@@ -73,6 +72,7 @@ div .principal {
 .aviso {
   height: 40vh;
   max-width: 100%;
+  text-align: center;
 }
 .articulo {
   background-color: #fcf9ed;
@@ -81,29 +81,28 @@ div .principal {
   margin-left: 10%;
   margin-right: 10%;
   letter-spacing: 0.5px;
-   font-weight: lighter;
+  font-weight: lighter;
 }
 .articulo h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .espacio {
   height: 20vh;
 }
 .letra {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
+  font-weight: lighter;
+  font-family: 'Caveat', cursive;
 }
 h1 {
   font-size: 3rem;
 }
-#especial {
-  font-size: 2.2rem;
-}
+
 h3 {
   font-size: 1.5rem;
-    letter-spacing: 0.5px;
-    font-weight: lighter;
-    line-height: 8vh;
+  letter-spacing: 0.5px;
+  font-weight: lighter;
+  line-height: 5vh;
 }
 .hvr-grow {
   display: inline-block;
@@ -141,24 +140,21 @@ h3 {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 260px) and (max-device-width: 620px) {
   h1 {
-    font-size: 20px;
+    font-size: 1.9rem;
   }
   h2,
   h3 {
     font-size: 1.3rem;
   }
   .articulo h2 {
-  font-size: 1.8rem;
+    font-size: 1.8rem;
+  }
   p {
     font-size: 1rem;
   }
   i .fab fa-blogger {
     font-size: 1rem;
-  }
- span .letra {
-    font-family: 'Balsamiq Sans', cursive;
-    font-size: 18px;
   }
 }
