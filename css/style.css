@@ -38,7 +38,7 @@ a .nav-link {
   color: #d9dbf1;
 }
 div .principal {
-  background-image: url('../img/fondosec.jpg');
+  background-image: url('../img/fondosecmodificado.webp');
   background-size: contain;
   background-repeat: no-repeat;
   height: 80vh;
@@ -55,10 +55,10 @@ div .principal {
   border: 2px outset #d9dbf1;
 }
 .img-1 {
-  background-image: url('../img/arquitect1mod.jpg');
+  background-image: url('../img/arquitect1modificada.webp');
 }
 .img-2 {
-  background-image: url('../img/interiormod.jpg');
+  background-image: url('../img/interiormodificado.webp');
   min-height: 70vh;
 }
 .img-3 {
@@ -142,37 +142,6 @@ p {
 .hvr-float:active {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
-}
-.status {
-  width: 90%;
-  max-width: 500px;
-  text-align: center;
-  padding: 10px;
-  margin: 0 auto;
-  border-radius: 8px;
-}
-.status.success {
-  background-color: rgb(211, 250, 153);
-  animation: status 4s ease forwards;
-}
-.status.error {
-  background-color: rgb(250, 129, 92);
-  color: white;
-  animation: status 4s ease forwards;
-}
-@keyframes status {
-  0% {
-    opacity: 1;
-    pointer-events: all;
-  }
-  90% {
-    opacity: 1;
-    pointer-events: all;
-  }
-  100% {
-    opacity: 0;
-    pointer-events: none;
-  }
 }
 
 @media only screen and (min-device-width: 260px) and (max-device-width: 620px) {
