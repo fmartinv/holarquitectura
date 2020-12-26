@@ -99,10 +99,13 @@ h1 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   letter-spacing: 0.5px;
   font-weight: lighter;
   line-height: 5.5vh;
+}
+p {
+  font-size: 1rem;
 }
 .hvr-grow {
   display: inline-block;
@@ -140,13 +143,47 @@ h3 {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
+.status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+.status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
 @media only screen and (min-device-width: 260px) and (max-device-width: 620px) {
   h1 {
     font-size: 1.9rem;
   }
   h2,
   h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 6.2vh;
   }
   .articulo h2 {
     font-size: 1.8rem;
@@ -158,8 +195,9 @@ h3 {
     font-size: 1rem;
   }
   .letra {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     font-weight: lighter;
     font-family: 'Caveat', cursive;
+    line-height: 7vh;
   }
 }
