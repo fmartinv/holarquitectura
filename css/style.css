@@ -57,18 +57,7 @@ div .principal {
 .img-1 {
   background-image: url('../img/arquitect1modificada.webp');
 }
-.img-2 {
-  background-image: url('../img/interiormodificado.webp');
-  min-height: 70vh;
-}
-.img-3 {
-  background-image: url('../img/imagarquitectura2.webp');
-  min-height: 70vh;
-}
-.img-4 {
-  background-image: url('../img/imagarquitectura3.jpg');
-  min-height: 70vh;
-}
+
 .aviso {
   height: 40vh;
   max-width: 100%;
